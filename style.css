@@ -1,0 +1,98 @@
+
+body{
+    background-color: #221e1a;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  color: white;
+  
+
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+}
+.logo img {
+    width: 50px;
+}
+.logo{
+       display: flex;
+    align-items: center;
+}
+.logo span{
+    height: 50px;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.container {
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 12px auto;
+    width: 75vw;
+    padding: 34px;
+    
+}
+.songItem{
+     height: 50px;
+     display: flex;
+     background-color: rgb(190, 145, 85);
+     /* width: 70%; */
+     justify-content: space-around;
+     flex-direction: row;
+     align-items:center;
+     margin: 12px 0px;
+     border-radius:34px;
+}
+.songItem img {
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.container h1 {
+    text-align: center;
+}
+.range {
+    max-width: 100vw;
+    width: 75vw;
+    cursor: pointer;
+}
+.bottom{
+    background-color: black;
+    position: sticky ;
+    bottom:0%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    color: white;
+    gap: 12px;
+}
+
+.songInfo{
+    width: 89vw;
+    display: flex;
+    justify-content:space-around;
+     align-items: center;}
+      .songInfo span{ margin-right: 15px;
+    
+    
+}
+.playingGif {
+    opacity: 0;
+    
+}
