@@ -24,9 +24,6 @@ masterPlay.addEventListener('click', () => {
 });
 
 // Listen for audio time update to sync progress bar
-audioElement.addEventListener('timeupdate', () => {
-    let progress = parseInt((audioElement.currentTime / audioElement.duration) * 100);
-    myProcessBar.value = progress;
+myProcessBar.addEventListener('timeupdate', () => {
+    console.log(timeupdate);
 });
-
-// now this is my code 
