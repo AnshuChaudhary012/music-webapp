@@ -29,3 +29,4 @@ audioElement.addEventListener('timeupdate', () => {
     myProcessBar.value = progress;
 });
 
+// now this is my code 
