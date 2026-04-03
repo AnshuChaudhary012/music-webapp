@@ -1,6 +1,6 @@
 # 📌 Music webapp
 
-A brief description of what your project does and its purpose.
+This is a music web app which plays music online. 
 
 ---
 ---
@@ -8,7 +8,5 @@ A brief description of what your project does and its purpose.
 ## 🚀 Features
 
 - you can play songs in one click.
-- Feature 2
-- Feature 3
-
+- forward and backward buttons.
 
